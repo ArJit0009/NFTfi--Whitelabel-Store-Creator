@@ -22,6 +22,10 @@
         font-family: 'Poppins-Medium';
         src: url("../fonts/Poppins/Poppins-Medium.ttf");
     }
+    @font-face {
+        font-family: 'whiskeygirls';
+        src: url("../fonts/Poppins/whiskeygirlscond.ttf");
+    }
 }
 
 
@@ -41,10 +45,9 @@
     max-width: 243px;
 }
 
-.apply-example {
-    @apply ; /*combining tailwind classes in one*/
+/* .apply-example {
+    @apply ; }/*combining tailwind classes in one*/
     /*background-color: red; can also add normal css properties in the same class*/
-}
 
 @screen md {
     .max-width-674px{

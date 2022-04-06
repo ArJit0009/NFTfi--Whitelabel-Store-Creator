@@ -45,7 +45,7 @@ module.exports = {
         100: "#016DD9",
       },
       sky: {
-        100: "#016DD9",
+        100: "#0FC2E9",
       },
       grey: {
         25: "#9398A2",
@@ -133,6 +133,7 @@ module.exports = {
       PoppinsSemiBold: ["Poppins-SemiBold", "sans-serif"],
       PoppinsRegular: ["Poppins-Regular", "sans-serif"],
       PoppinsMedium: ["Poppins-Medium", "sans-serif"],
+      whiskeygirls: ["whiskeygirls", "sans-serif"],
     },
 
     boxShadow: {

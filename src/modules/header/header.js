@@ -1,26 +1,20 @@
 import React, { useState } from "react";
 
-function Header(){
-    return (
-        <div className="hidden md:flex pt-8 pb-9 relative">
-            <div className="margin-right-12vw">
-                <img src="/images/Logo-Color.svg"/>
-            </div>
-
-            <div className="flex margin-right-6vw">
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">PLAY</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">SPONSOR</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">DISTRIBUTE</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold margin-right-2vw">RETAIL</a>
-                <a href="" className="text-ft3 text-darkGrey font-PoppinsSemiBold">COMMUNITY</a>
-            </div>
-
-            <div className="flex absolute right-0">
-                <button className="text-ft3 font-PoppinsSemiBold text-red-50 border rounded-3xl border-red-50 w-45 margin-right-half-vw py-2">CREATE GAME</button>
-                <button className="text-ft3 font-PoppinsSemiBold bg-blue-50 text-white rounded-3xl w-45 py-2">CONNECT WALLET</button>
-            </div>
-        </div>
-    )
+function Header() {
+  return (
+    <div className="flex shadow-xl justify-between h-16 text-white-100">
+      <div>
+        <p className="text-ft9 text-blue-100 font-whiskeygirls pt-4.5 pl-11.5 w-19.25 h-7">
+          NFTfi
+        </p>
+      </div>
+      <div className="space-x-8 pt-4.5 pr-11.5 ">
+        <i className="fa-solid fa-user-tie  text-darkGrey-100 text-ft9"></i>
+        <i className="fa-solid fa-wallet text-darkGrey-100 text-ft9"></i>
+        <i className="fa-solid fa-bell text-darkGrey-100 text-ft9"></i>
+      </div>
+    </div>
+  );
 }
 
 export default Header;
