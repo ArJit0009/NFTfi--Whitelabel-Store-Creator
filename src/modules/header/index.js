@@ -1,6 +1,6 @@
 import React from "react";
 import BaseComponent from "../baseComponent";
-import Header from "./header";
+import HeaderComponent from "./headerComponent";
 
 class Header extends BaseComponent {
   constructor(props) {
@@ -11,7 +11,7 @@ class Header extends BaseComponent {
   componentDidMount() {}
 
   render() {
-    return <Header />;
+    return <HeaderComponent />;
   }
 }
 

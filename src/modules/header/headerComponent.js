@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Header() {
+function HeaderComponent() {
   return (
     <div className="flex shadow-xl justify-between h-16 text-white-100">
       <div>
@@ -17,4 +17,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderComponent;
