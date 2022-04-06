@@ -2,7 +2,7 @@ import React from "react";
 
 function Advancescreen() {
   return (
-    <div className=" mx-auto mt-20 w-137.75">
+    <div className=" mx-10 lg:mx-auto mt-20 w-full lg:w-137.75 bg-white-100">
       <div className="flex flex-col ">
         <h1 className="font-PoppinsBold text-ft8 text-grey-75">
           Advance Settings
@@ -19,12 +19,12 @@ function Advancescreen() {
         </p>
         {/* TODO toggle */}
         <div className="flex flex-wrap mt-9">
-          <div className="flex p-2 border-2 rounded-lg border-yellowwhite-75 text-ft4 w-56">
+          <div className="flex p-2 border-2 rounded-lg border-yellowwhite-75 text-ft4 w-56 ">
             <i className="fa-brands fa-ethereum p-1"></i>
-            <p className="font-PoppinsRegular text-grey-50 ">Ethereum</p>
+            <p className="font-PoppinsRegular text-grey-50">Ethereum</p>
           </div>
 
-          <div className="flex p-2 border-2 rounded-lg border-yellowwhite-75 text-ft4 w-56 ml-16">
+          <div className="flex p-2 border-2 rounded-lg border-yellowwhite-75 text-ft4 w-56 mt-6 lg:mt-0 ml-0 lg:ml-16">
             <i className="fa-brands fa-bitcoin p-1"></i>
             <p className="font-PoppinsRegular text-grey-50 ">Binance</p>
           </div>
@@ -68,7 +68,7 @@ function Advancescreen() {
         <h2 className="text-grey-75 text-ft6 font-PoppinsSemiBold mt-8 ">
           Categories
         </h2>
-        <div className="mt-5 flex flex-wrap justify-between ">
+        <div className="mt-5 flex  justify-between flex-col space-y-4 lg:space-y-0 lg:flex-row ">
           <div className="flex flex-col">
             <div className="flex">
               <input
@@ -133,12 +133,12 @@ function Advancescreen() {
           </div>
 
           <div className="flex flex-col">
-            <div className="flex">
+            <div className="flex ">
               <input
                 className="w-8 h-8 bg-sky-100  text-sky-100 "
                 type="checkbox"
               ></input>
-              <p className="text-ft2 text-grey-75 p-1 font-PoppinsMedium">
+              <p className="text-ft2 text-grey-75 p-1 font-PoppinsMedium ">
                 Collectibles
               </p>
             </div>
@@ -182,7 +182,7 @@ function Advancescreen() {
 
         <button
           type="button"
-          className="text-ft4 font-PoppinsSemiBold text-white-100 px-16 py-2 bg-blue-100 rounded-lg ml-80 mr-9 mb-11"
+          className="text-ft4 font-PoppinsSemiBold text-white-100 px-16 py-2 bg-blue-100 rounded-lg lg:ml-80 mr-9 mb-11"
         >
           Save
         </button>
