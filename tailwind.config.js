@@ -153,9 +153,9 @@ module.exports = {
       outline: "0px 0px 0px 3px rgba(0, 0, 0, 0.5)",
     },
 
-    backgroundImage: (theme) => ({
-      dummy: "url('')", //tailwind class => bg-dummy
-    }),
+    // backgroundImage: (theme) => ({
+    //   dummy: "url('')", //tailwind class => bg-dummy
+    // }),
 
     extend: {
       //theme options are to be extended with custom variants and not overridden (1 unit = 4px)

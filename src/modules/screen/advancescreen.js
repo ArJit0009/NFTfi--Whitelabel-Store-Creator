@@ -47,6 +47,7 @@ function Advancescreen() {
         <input
           type="text"
           className="text-grey-50 text-ft2 font-PoppinsMedium mt-2 w-full p-3 border-2 rounded-lg border-yellowwhite-75"
+          placeholder="http//:Abc.nftifi.com"
         ></input>
         <p className="font-PoppinsMedium text-ft1 mt-5">
           For adding Custom URL{" "}

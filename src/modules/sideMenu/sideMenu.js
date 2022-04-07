@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function SideMenu() {
   return (
-    <div className="bg-black-100 w-65 px-2 pt-24 min-h-full hidden lg:block">
+    <div className="bg-black-100 w-65 px-2 pt-24 min-h-full hidden lg:block ">
       <div className="bg-black-50 text-sky-100 text-ft5 rounded-3xl py-5 px-5">
         <h1 className=" font-semibold">
           <i className="fa-solid fa-store px-2"></i>
@@ -13,14 +14,14 @@ function SideMenu() {
       <div className=" text-sky-100 text-ft3  pt-5 px-5">
         <h1 className="font-semibold">
           <i className="fa-solid fa-sliders px-2"></i>
-          General Settings
+          <Link to="/generalsetting"> General Settings</Link>
         </h1>
       </div>
 
       <div className=" text-grey-25 text-ft3  pt-5 px-5">
         <h1 className="">
           <i className="fa-solid fa-gear px-2"></i>
-          Advance Settings
+          <Link to="/advancesetting"> Advance Settings</Link>
         </h1>
       </div>
 

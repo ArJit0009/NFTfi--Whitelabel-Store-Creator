@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../header";
 import Advancescreen from "../screen/advancescreen";
+import BlogComponent from "../screen/blog";
 import Generalscreen from "../screen/generalscreen";
 import SideMenu from "../sideMenu/sideMenu";
 
@@ -11,7 +12,9 @@ function MainComponent() {
       <Header />
       <div className="flex">
         <SideMenu />
-        <Advancescreen />
+        {/* <Generalscreen />
+        <Advancescreen /> */}
+        <BlogComponent />
       </div>
     </div>
   );
