@@ -59,6 +59,12 @@ module.exports = {
         50: "#789CBF",
         100: "#5C758E",
       },
+      red: {
+        100: "#D90101",
+      },
+      light: {
+        100: "#F3F5F9",
+      },
     },
 
     fontSize: {
@@ -180,6 +186,7 @@ module.exports = {
         61: "244px",
         65: "260px",
         137.75: "551px",
+        216.5: "700px",
       },
       borderWidth: {},
       borderRadius: {

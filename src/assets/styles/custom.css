@@ -28,6 +28,10 @@
     }
 }
   
+  .tabs > button:hover {
+    border-bottom: 3px solid #007bef;
+  }
+  
 
 
 .min-width-10px{

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function HeaderComponent() {
   return (
-    <div className="flex shadow-xl justify-between h-16 text-white-100">
+    <div className="flex shadow-xl justify-between h-16 text-white-100 w-full">
       <div>
         <p className="text-ft9 text-blue-100 font-whiskeygirls pt-4.5 pl-11.5 w-19.25 h-7">
           NFTfi
