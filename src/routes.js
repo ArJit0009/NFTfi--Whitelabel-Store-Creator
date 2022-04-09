@@ -7,6 +7,9 @@ import BaseComponent from "./modules/baseComponent";
 import { history } from "./managers/history";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import getMuiTheme from "material-ui/styles/getMuiTheme";
+import BlogComponent from "./modules/screen/blog";
+import Advancescreen from "./modules/screen/advancescreen";
+import Generalscreen from "./modules/screen/generalscreen";
 
 class Routes extends BaseComponent {
   componentDidMount() {}
@@ -17,7 +20,10 @@ class Routes extends BaseComponent {
         <Router history={history}>
           <Switch>
             <Route exact path={"/"} component={Main} />
-            <Redirect exact from="*" to="/" />
+            <Route exact path={"/blog"} component={BlogComponent} />
+            <Route exact path={"/advancesetting"} component={Advancescreen} />
+            <Route exact path={"/generalsetting"} component={Generalscreen} />
+            <Redirect exact from="/generalsetting" to="/" />
           </Switch>
         </Router>
       </MuiThemeProvider>

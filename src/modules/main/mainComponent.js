@@ -12,9 +12,9 @@ function MainComponent() {
       <Header />
       <div className="flex">
         <SideMenu />
-        {/* <Generalscreen />
-        <Advancescreen /> */}
-        <BlogComponent />
+        <Generalscreen />
+        {/* <Advancescreen />
+        <BlogComponent /> */}
       </div>
     </div>
   );

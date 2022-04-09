@@ -32,7 +32,7 @@ function BlogComponent() {
         <hr className="text-grey-25"></hr>
       </div>
       {isShown ? (
-        <table className="table-auto mt-14 w-full">
+        <table className="table-auto mt-14 w-full ">
           <thead className=" text-ft4 font-PoppinsMedium text-grey-75 ">
             <tr className="">
               <th className="">Blog name</th>
@@ -42,8 +42,8 @@ function BlogComponent() {
               <th></th>
             </tr>
           </thead>
-          <tbody className=" text-ft2 font-PoppinsMedium ">
-            <tr className=" bg-light-100 h-12 rounded-lg  ">
+          <tbody className=" text-ft2 font-PoppinsMedium mt-3 ">
+            <tr className=" bg-light-100 h-12 rounded-full">
               <td className="text-grey-50 ">What are NFT's</td>
               <td className="text-grey-50 pl-44">21/01/22</td>
               <td className="text-grey-50 ">Posted</td>
