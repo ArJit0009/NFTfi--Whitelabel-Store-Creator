@@ -9,9 +9,9 @@ function HeaderComponent() {
         </p>
       </div>
       <div className="space-x-8 pt-4.5 pr-11.5 ">
-        <i className="fa-solid fa-user-tie  text-darkGrey-100 text-ft9"></i>
-        <i className="fa-solid fa-wallet text-darkGrey-100 text-ft9"></i>
-        <i className="fa-solid fa-bell text-darkGrey-100 text-ft9"></i>
+        <i className="fa-solid fa-user-tie  text-darkGrey-100 hover:text-blue-100 text-ft9 "></i>
+        <i className="fa-solid fa-wallet text-darkGrey-100 hover:text-blue-100 text-ft9"></i>
+        <i className="fa-solid fa-bell text-darkGrey-100 hover:text-blue-100 text-ft9"></i>
       </div>
     </div>
   );

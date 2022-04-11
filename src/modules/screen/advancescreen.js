@@ -2,7 +2,7 @@ import React from "react";
 
 function Advancescreen() {
   return (
-    <div className=" mx-10 lg:mx-auto mt-20 w-full lg:w-137.75 bg-white-100">
+    <div className=" mx-10 lg:mx-auto mt-20 w-full lg:w-137.75 bg-white-100 flex flex-col">
       <div className="flex flex-col ">
         <h1 className="font-PoppinsBold text-ft8 text-grey-75">
           Advance Settings
@@ -18,7 +18,7 @@ function Advancescreen() {
           will work on
         </p>
         {/* TODO toggle */}
-        <div className="flex flex-wrap mt-9">
+        <div className="flex flex-wrap mt-9 ">
           <div className="flex p-2 border-2 rounded-lg border-yellowwhite-75 text-ft4 w-56 ">
             <i className="fa-brands fa-ethereum p-1"></i>
             <p className="font-PoppinsRegular text-grey-50">Ethereum</p>
@@ -183,7 +183,7 @@ function Advancescreen() {
 
         <button
           type="button"
-          className="text-ft4 font-PoppinsSemiBold text-white-100 px-16 py-2 bg-blue-100 rounded-lg lg:ml-80 mr-9 mb-11"
+          className="text-ft4 font-PoppinsSemiBold text-white-100 px-16 py-2 bg-blue-100 rounded-lg lg:ml-80 mr-9 mb-11 hover:shadow-xl hover:bg-black-100"
         >
           Save
         </button>

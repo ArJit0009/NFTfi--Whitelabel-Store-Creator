@@ -135,6 +135,7 @@ module.exports = {
           lineHeight: "33px",
         },
       ],
+      ft10: ["44px"],
     },
 
     fontFamily: {
@@ -187,6 +188,7 @@ module.exports = {
         65: "260px",
         137.75: "551px",
         216.5: "700px",
+        240: "960px",
       },
       borderWidth: {},
       borderRadius: {

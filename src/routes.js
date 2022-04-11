@@ -10,6 +10,9 @@ import getMuiTheme from "material-ui/styles/getMuiTheme";
 import BlogComponent from "./modules/screen/blog";
 import Advancescreen from "./modules/screen/advancescreen";
 import Generalscreen from "./modules/screen/generalscreen";
+import Header from "./modules/header";
+import HeaderComponent from "./modules/header/headerComponent";
+import SideMenu from "./modules/sideMenu/sideMenu";
 
 class Routes extends BaseComponent {
   componentDidMount() {}
@@ -18,13 +21,17 @@ class Routes extends BaseComponent {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <Router history={history}>
-          <Switch>
-            <Route exact path={"/"} component={Main} />
-            <Route exact path={"/blog"} component={BlogComponent} />
-            <Route exact path={"/advancesetting"} component={Advancescreen} />
-            <Route exact path={"/generalsetting"} component={Generalscreen} />
-            <Redirect exact from="/generalsetting" to="/" />
-          </Switch>
+          <HeaderComponent />
+          <div className="flex ">
+            <SideMenu />
+            <Switch>
+              <Route exact path={"/"} component={Main} />
+              <Route exact path={"/blog"} component={BlogComponent} />
+              <Route exact path={"/advancesetting"} component={Advancescreen} />
+              <Route exact path={"/generalsetting"} component={Generalscreen} />
+              <Redirect exact from="/generalsetting" to="/" />
+            </Switch>
+          </div>
         </Router>
       </MuiThemeProvider>
     );

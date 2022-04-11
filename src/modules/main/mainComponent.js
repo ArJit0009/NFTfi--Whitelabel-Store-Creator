@@ -8,15 +8,10 @@ import SideMenu from "../sideMenu/sideMenu";
 function MainComponent() {
   return (
     // <div className="global-container flex justify-center">
-    <div className="max-width-1640px">
-      <Header />
-      <div className="flex">
-        <SideMenu />
-        <Generalscreen />
-        {/* <Advancescreen />
-        <BlogComponent /> */}
-      </div>
-    </div>
+    //   <div className="max-width-1640px">
+    <Generalscreen />
+    //   </div>
+    // </div>
   );
 }
 
