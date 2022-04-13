@@ -51,7 +51,7 @@ function Advancescreen() {
         ></input>
         <p className="font-PoppinsMedium text-ft1 mt-5">
           For adding Custom URL{" "}
-          <a href="" className="text-blue-100">
+          <a href="/" className="text-blue-100">
             Upgrade
           </a>{" "}
           you plan
@@ -166,7 +166,7 @@ function Advancescreen() {
           Privacy Policy
         </h3>
 
-        <a href="" className="font-PoppinsRegular text-ft4 text-blue-100 my-4">
+        <a href="/" className="font-PoppinsRegular text-ft4 text-blue-100 my-4">
           Edit
         </a>
 
@@ -177,7 +177,7 @@ function Advancescreen() {
           Terms and Conditions
         </h3>
 
-        <a href="" className="font-PoppinsRegular text-ft4 text-blue-100 my-4">
+        <a href="/" className="font-PoppinsRegular text-ft4 text-blue-100 my-4">
           Edit
         </a>
 

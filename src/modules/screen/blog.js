@@ -11,7 +11,7 @@ function BlogComponent() {
   const [isShown3, setIsShown3] = useState(false);
 
   const handleClick = () => {
-    if (isShown.display == "none") {
+    if (isShown.display === "none") {
       setIsShown({
         display: "block",
       });
@@ -21,7 +21,7 @@ function BlogComponent() {
     }
   };
   const handleClick2 = () => {
-    if (isShown2.display == "none")
+    if (isShown2.display === "none")
       setIsShown2({
         display: "block",
       });
@@ -32,7 +32,7 @@ function BlogComponent() {
 
   return (
     // TODO tr round and padding
-    <div className=" mx-10 lg:mx-auto mt-20   bg-white-100 text-grey-75 w-240">
+    <div className=" mx-10 lg:mx-auto mt-20   bg-white-100 text-grey-75 w-full lg:w-240">
       <div className="flex flex-row  justify-between">
         <h1 className="font-PoppinsBold text-ft8 py-2">Blog</h1>
         <button

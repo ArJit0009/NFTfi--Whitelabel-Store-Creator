@@ -10,7 +10,6 @@ import getMuiTheme from "material-ui/styles/getMuiTheme";
 import BlogComponent from "./modules/screen/blog";
 import Advancescreen from "./modules/screen/advancescreen";
 import Generalscreen from "./modules/screen/generalscreen";
-import Header from "./modules/header";
 import HeaderComponent from "./modules/header/headerComponent";
 import SideMenu from "./modules/sideMenu/sideMenu";
 

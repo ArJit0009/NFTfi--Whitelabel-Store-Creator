@@ -19,7 +19,7 @@ function Generalscreen() {
 
           <h1 className="font-PoppinsRegular text-ft2  mx-auto mt-4">
             Drag and Drop or{" "}
-            <a href="" className="text-blue-100 font-PoppinsSemiBold">
+            <a href="/" className="text-blue-100 font-PoppinsSemiBold">
               Browse
             </a>
           </h1>
@@ -65,7 +65,7 @@ function Generalscreen() {
         <p className="font-PoppinsSemiBold text-ft6 text-grey-75 mt-8">
           Social media Connection
         </p>
-        {/* TODO togglegit  */}
+        {/* TODO toggle  */}
         <div className="flex flex-col text-ft2 font-PoppinsMedium mt-3 space-y-3">
           <div className=" flex justify-between">
             <h1>Instagram</h1>

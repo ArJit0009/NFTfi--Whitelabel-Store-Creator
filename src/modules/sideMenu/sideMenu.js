@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import { NavLink } from "react-router-dom";
-import BlogComponent from "../screen/blog";
-import Generalscreen from "../screen/generalscreen";
 
 function SideMenu() {
   return (

@@ -31,10 +31,6 @@
   .tabs > button:hover {
     border-bottom: 3px solid #007bef;
   }
-  table > thead > tr{
-      border: 5;
-      padding: 4;
-  }
 
   .is-active{
       color: #0FC2E9;
